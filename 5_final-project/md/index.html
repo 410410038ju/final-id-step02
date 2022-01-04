@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="./style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final Project</title>
+</head>
+<body>
+  <h1>Final Project</h1>
+
+  <header class="header">
+
+    <div class="main-nav">
+      <div class="logo">
+          <h3>朱憶嘉 <br> 410410038 </h3>
+      </div>
+    </div>
+
+    <div class="demo-container">
+      <div class="heading">
+        <ul>
+          <li>
+            <a href="#hero">Hero</a>
+          </li>
+          <li>
+            <a href="#resume">Resume</a>
+          </li>
+          <li>
+            <a href="#gallery">Personal Gallery</a>
+          </li>
+        </ul>
+      </div>
+      
+      <section class="show-classdemo">
+
+      </section>
+    </div>
+
+
+  </header>
+
+  <main>
+    <section class="section-hero" id="hero">
+      <div class="slideshow">
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="./images/image 002.jpg" style="width: 100%" />
+            <div class="text">在白沙岬燈塔</div>
+          </div>
+  
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="./images/image 003.jpg" style="width: 100%" />
+            <div class="text">在遊樂園搭乘小飛龍</div>
+          </div>
+  
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="./images/image 008.jpg" style="width: 100%" />
+            <div class="text">我們是甜心姊妹花~</div>
+          </div>
+  
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="./images/image 012.jpg" style="width: 100%" />
+            <div class="text">在摩天輪上</div>
+          </div>
+  
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+  
+        <!-- The dots/circles -->
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+      </div>
+      <script src="./hero.js"></script>
+    </section>
+
+    <section class="section-resume" id="resume">
+      <table border="5">
+        <caption>履歷表</caption>
+        <tr>
+          <td>
+            <table border="2">
+              <tr>	
+                <td rowspan="5"><img src="./images/image 007.jpg" width="200" height="300" alt="" /></td>
+                <th>姓名</th>
+                <td>朱憶嘉</td>
+                <th>性別</th>
+                <td>女</td>
+              </tr>
+              <tr>
+                <th>生日</th>
+                <td>2003.01.15</td>
+                <th>年齡</th>
+                <td>18</td>
+              </tr>
+              <tr>
+                <th>E-mail</th>
+                <td colspan="3">410410038tku@gmail.com</td>
+              </tr>
+              <tr>
+                <th rowspan="2">學歷</th>
+                <td colspan="3">臺北市立南湖高級中學</td>
+              </tr>
+              <tr>
+                <td colspan="3">淡江大學資訊工程學系 學士</td>
+              </tr>
+              <tr>
+                <th>自我介紹</th>
+                  <td colspan="4">我的名字叫朱憶嘉，出生在新北市，我的家是平凡的三代同堂家庭。國小我畢業於新北市金龍國小，國中我就讀台北市東湖國中，高中則是南湖高中。
+                                  我的興趣是閱讀，我喜歡閱讀各類書籍，可以藉由讀書進入作者架構的世界是我很享受的一個活動，我可以花幾個小時沈浸在書中。
+                                  我的個性比較內向，希望上大學後可以多交幾個朋友。</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </section>
+    <section class="section-gallery" id="gallery"> 
+      <link
+      href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic|Source+Code+Pro:400,700"
+      rel="stylesheet"
+      type="text/css"
+      />
+  
+      <div class="line5">
+        <div class="box">
+          <img src="./images/image 001.jpg" alt="" />
+          <!-- <hr> -->
+          <hr />
+
+          <div class="post">
+            <div class="date">July 25 2017</div>
+            <h2>逛夜市</h2>
+     
+            <p class="quote">
+              我跟妹妹去逛饒河街，買了涼圓，很開心的跟妹妹一起享用。
+            </p>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="./images/image 004.jpg" alt="" />
+          <!-- <hr> -->
+          <hr />
+  
+          <div class="post">
+            <div class="date">June 9 2016</div>
+            <h2>大賣場採購</h2>
+  
+            <p class="quote">
+              今天我們全家到大賣場採購，採購完前大家都餓了，所以又選購了大比薩，結帳完後就到用餐區開吃囉!
+            </p>
+  
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="./images/image 005.jpg" alt="" />
+          <!-- <hr> -->
+          <hr />
+  
+          <div class="post">
+            <div class="date">December 21 2018</div>
+            <h2>聖誕節敲平安鐘</h2>
+  
+            <p class="quote">
+              聖誕節前我們經過一間銀行前，看到祈福鐘，我們當然就去敲響鐘囉!
+            </p>
+  
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="./images/image 006.jpg" alt="" />
+          <!-- <hr> -->
+          <hr />
+  
+          <div class="post">
+            <div class="date">October 28 2017</div>
+            <h2>萬聖節手作活動</h2>
+  
+            <p class="quote">
+              萬聖節時新北市政府舉辦了手作活動，我們參加了好幾項手作，這張是我們用色紙摺南瓜，步驟簡單，一下子就折好了。
+            </p>
+  
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="./images/image 007.jpg" alt="" />
+          <!-- <hr> -->
+          <hr />
+  
+          <div class="post">
+            <div class="date">July 13 2015</div>
+            <h2>小叮噹遊樂園</h2>
+  
+            <p class="quote">
+              小叮噹遊樂園內有很多科學實驗，這一張是利用光線在本人離開後將影子短暫留在牆上，這個實驗蠻有趣的，我們玩了好幾次呢!
+            </p>
+  
+          </div>
+        </div>
+
+        <div class="box">   
+          <img src="./images/image 009.jpg" alt="" />
+          <!-- <hr> -->
+          <hr />
+  
+          <div class="post">
+            <div class="date">May 21 2016</div>
+            <h2>兒童新樂園碰碰車</h2>
+  
+            <p class="quote">
+              兒童新樂園是我喜歡去的地方之一,最喜歡的就是碰碰車,可以自己駕馭一台車的感覺很開心.
+            </p>
+  
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="./images/image 013.jpg" alt="" />
+          <!-- <hr> -->
+          <hr />
+  
+          <div class="post">
+            <div class="date">September 26 2018</div>
+            <h2>妹妹學校</h2>
+
+            <p class="quote">
+              我去妹妹學校參加活動,在校園走廊上留下我可愛的身影.
+            </p>
+
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="./images/image 015.jpg" alt="" />
+          <!-- <hr> -->
+          <hr />
+  
+          <div class="post">
+            <div class="date">June 7 2016</div>
+            <h2>兒童新樂園密室逃脫</h2>
+  
+            <p class="quote">
+              這裡也是兒童新樂園的一項設施,密室逃脫很好玩,只是想很久不知道如何逃脫很沮喪.
+            </p>
+  
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="./images/image 016.jpg" alt="" />
+          <!-- <hr> -->
+          <hr />
+  
+          <div class="post">
+            <div class="date">April 12 2018</div>
+            <h2>我們家</h2>
+  
+            <p class="quote">
+              這是我們家客廳的一角,我在冰箱前發呆留影.
+            </p>
+  
+          </div>
+        </div>
+
+      </div>
+          
+    </section>
+  </main>
+  <footer class="footer">
+  </footer>
+</body>
+</html>
